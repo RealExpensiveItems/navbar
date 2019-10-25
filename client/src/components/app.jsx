@@ -39,7 +39,7 @@ render() {
             <div className = 'bottomside'>
 
               <nav>
-                <ul className = 'bottomList'>
+                <ul className = 'bottomlist'>
                   <li className = 'categories'>Camp & Hike</li>
                   <li className = 'categories'>Climb</li>
                   <li className = 'categories'>Cycle</li>
