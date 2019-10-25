@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Topnavbar from './topnavbar.jsx';
 import Search from './search.jsx'
+import Logo from './logo.jsx'
 
 class App extends React.Component{
 
@@ -12,18 +13,18 @@ class App extends React.Component{
 render() {
   return (
     <div className = 'header-block'>
-      <header>
+      <header className = "header">
       <div className='topnavcontainer'>
         <Topnavbar />
       </div>
         <div className= 'masthead'>
           <div className = 'icon'>
             <div className='logo'>
-              <img src='rei-co-op-logo-white.svg' ></img>
+              <Logo />
             </div>
           <div className='searchAndNav'>
             <Search />
-            <hr/>
+            <hr class="whiteLine"/>
             <nav className="RightSide">
                 <ul className="SideActions">
                   <li className="action">SIGN IN

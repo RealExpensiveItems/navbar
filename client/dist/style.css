@@ -1,9 +1,8 @@
-body{
+.header-body{
   width:100%;
   margin:0
-
 }
-header{
+.header{
   background-color: black;
   /* left: 0px; */
   display: block;
@@ -229,7 +228,7 @@ header{
   display:block;
   padding-top:10px;
 }
-hr{
+.whiteLine{
   margin-top:16px;
   border-top: 1px solid #e5e5e5;
   display: block;
