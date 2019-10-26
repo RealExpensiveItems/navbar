@@ -1,4 +1,4 @@
-.header-body{
+body{
   width:100%;
   margin:0
 }
@@ -132,7 +132,7 @@
   transform: translateY(-20px);
   transform: translateX(875px);
 }
-.sideActions{
+.SideActions{
   list-style-type: none;
   margin: 0;
   padding-left: 0px;
@@ -284,3 +284,4 @@
   background-color:#a0a0a0;
   cursor:pointer;
 }
+

@@ -15,7 +15,7 @@ class Search extends React.Component{
   }
   changeHandler(e){
     this.setState({userInput: e.target.value}, console.log(this.state.userInput, this.state.entries))
-    axios.get('/api/search',{
+    axios.get('http://localhost:3108/api/search',{
       params:{
         name: `${e.target.value}`
       }
